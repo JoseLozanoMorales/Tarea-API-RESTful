@@ -29,10 +29,20 @@
         android:background="#4CAF50"
         android:text="Lugares Turisticos"
         android:textAlignment="center"
-        android:textColor="#F4EFEF"
+        android:textColor="#0D47A1"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/lbllugaresturisticos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#8BFBFBFB"
+        android:text="txt sensual para ser sustituido uwu"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 </androidx.constraintlayout.widget.ConstraintLayout>
