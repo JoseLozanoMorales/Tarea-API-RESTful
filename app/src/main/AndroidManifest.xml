@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- xmlns:tools="http://schemas.android.com/tools" -->
+
+    <!-- Nuevo agregado 11-12-2025 -->
+    <!-- Permiso para acceso a Internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -21,5 +25,4 @@
             </intent-filter>
         </activity>
     </application>
-
 </manifest>
